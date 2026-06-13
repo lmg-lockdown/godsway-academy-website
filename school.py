@@ -200,6 +200,28 @@ elif page=="Contact":
         st.write(st.session_state['0592882841'])
     st.subheader("📞 **Phone:** +233592882841")
     st.subheader("📧 **Email:** christianbonzoh@gmail.com")
+st.markdown("""
+<style>
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+</style>
+
+<div class="footer">
+    © 2026 Godsway Academy | Building Minds. Shaping Futures. Honoring God.
+    <br>
+    📞 +233592882841 | 📧 christianbonzoh@gmail.com
+</div>
+""", unsafe_allow_html=True)
+
+    
     st.markdown("""
     <style>
     .stApp {
