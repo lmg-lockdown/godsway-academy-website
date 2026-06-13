@@ -221,7 +221,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
     
-    st.markdown("""
+st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(to right,#964b00);
