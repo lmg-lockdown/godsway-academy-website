@@ -220,7 +220,6 @@ st.markdown("""
     📞 +233592882841 | 📧 christianbonzoh@gmail.com
 </div>
 """, unsafe_allow_html=True)
-
     
     st.markdown("""
     <style>
