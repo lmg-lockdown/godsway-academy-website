@@ -8,12 +8,12 @@ with st.sidebar:
     )
 
 if page=="Home":
-    st.title("GODSWAY ACCADEMY")
-    st.header("**WELCOME TO GODSWAY ACCADEMY'S WEBPAGE**")
+    st.title("GODSWAY ACADEMY")
+    st.header("**WELCOME TO GODSWAY ACADEMY'S WEBPAGE**")
     st.image("godsway_badge.png")
-    st.header("*Cultural Day At GODSWAY ACCADEMY*")
+    st.header("*Cultural Day At GODSWAY ACADEMY*")
     st.image("cultural_day.png")
-    st.header("*Career Day At GODSWAY ACCADEMY*")
+    st.header("*Career Day At GODSWAY ACADEMY*")
     st.image("career_day.png")
     st.image("godsway1.png")
     st.image("godsway2.png")
@@ -29,7 +29,7 @@ if page=="Home":
 
 if page=="About":
     st.image("godsway_badge.png")
-    st.subheader("**AbOUT GODSWAY ACCADEMY**")
+    st.subheader("**AbOUT GODSWAY ACADEMY**")
     st.write("Godsway Academy is a leading educational institution dedicated to providing quality education in a safe, nurturing, and inspiring environment. Our mission is to develop students academically, morally, spiritually, and socially, preparing them to become responsible leaders and productive members of society.")
     st.write("At Godsway Academy, we  Our curriculum combines academic excellence with strong moral values, critical thinking, creativity, and practical skills. We encourage students to develop confidence, discipline, integrity, and a lifelong love for learning.and student-centered teaching methods, we strive to help every learner reach their full potential.")
     st.write(" Our curriculum combines academic excellence with strong moral values, critical thinking, creativity, and practical skills. We encourage students to develop confidence, discipline, integrity, and a lifelong love for learning.")
@@ -59,7 +59,7 @@ elif page=="Subjects":
     st.subheader("At Godsway Academy, we provide a well-rounded curriculum designed to equip students with the knowledge and skills needed for academic success and personal development.")
     st.header("Core Subjects")
     st.write("✅ English Language")
-    st.write("✅ Mathmatics")
+    st.write("✅ Mathematics")
     st.write("✅ Integrated Science")
     st.write("✅ Social Studies")
     st.write("✅ Information and Communication Technology (ICT)")
@@ -168,14 +168,14 @@ elif page=="Facilities":
     st.write("✅Safe learning atmosphere")
     st.write("✅Comfortable outdoor spaces")
     
-    st.subheader("✅ playground")
+    st.subheader("🏃 playground")
     st.image("playground.png")
     st.write("✅Clean playground")
     st.write("✅Lots of things for your kids to play with")
     st.write("✅Secured")
     st.write("✅We have medics availabel")
     
-    st.subheader("✅ computer lab")
+    st.subheader("🖥️  computer lab")
     st.image("computerlab1.png")
     st.write("✅Lots of computers")
     st.write("✅More praticals than theory")
@@ -194,10 +194,10 @@ elif page=="Facilities":
 elif page=="Contact":
     st.image("godsway_badge.png")
     st.header("YOU CAN CONTACT US ON THIS LINES FOR MORE DETAILS")
-    if st.button("*WHATSAPP US ON*"):
-        st.session_state['0592882841'] = ("http://whatsapp.com/0592882841")
-    if '0592882841' in st.session_state:
-        st.write(st.session_state['0592882841'])
+    st.link_button(
+    "💬 Enquire About Admissions",
+    "https://wa.me/233592882841?text=Hello%20Godsway%20Academy,%20I%20would%20like%20to%20know%20more%20about%20admissions."
+)
     st.subheader("📞 **Phone:** +233592882841")
     st.subheader("📧 **Email:** christianbonzoh@gmail.com")
 st.markdown("""
